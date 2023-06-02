@@ -1,13 +1,7 @@
-package com.unip.aps;
+package com.unip.aps.view;
 
-import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
+import com.unip.aps.controller.ONGController;
+import com.unip.aps.model.ONG;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -15,14 +9,15 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.util.List;
 
-public class HelloApplication extends Application {
-    private ONGSearchService ongSearchService = new ONGSearchService();
+public class ONGView extends Application {
+    private ONGController ongController = new ONGController();
 
     @Override
     public void start(Stage primaryStage) {
@@ -51,9 +46,27 @@ public class HelloApplication extends Application {
         Button searchButton = new Button("Buscar ONGs");
         grid.add(searchButton, 0, 2);
 
+        // ONG Details
+        Label ongNameLabel = new Label("Nome:");
+        grid.add(ongNameLabel, 0, 3);
+
+        Label ongDescriptionLabel = new Label("Descrição:");
+        grid.add(ongDescriptionLabel, 0, 4);
+
+        Label ongPhoneLabel = new Label("Telefone:");
+        grid.add(ongPhoneLabel, 0, 5);
+
+        TextArea ongDescriptionArea = new TextArea();
+        ongDescriptionArea.setEditable(false);
+        grid.add(ongDescriptionArea, 1, 4);
+
+        TextField ongPhoneField = new TextField();
+        ongPhoneField.setEditable(false);
+        grid.add(ongPhoneField, 1, 5);
+
         // List View for displaying the NGOs
-        ListView<String> ongListView = new ListView<>();
-        grid.add(ongListView, 0, 3, 2, 1);
+        ListView<ONG> ongListView = new ListView<>();
+        grid.add(ongListView, 0, 6, 2, 1);
 
         // Event Handler for the search button
         searchButton.setOnAction(e -> {
@@ -61,19 +74,24 @@ public class HelloApplication extends Application {
             String address = addressField.getText();
 
             // Call the ONGSearchService to get the list of NGOs
-            List<String> ongs = ongSearchService.searchNGOs(name, address);
+            List<ONG> ongs = ongController.buscarOngsProximas(name, address);
 
             // Clear the list view and display the NGOs
             ongListView.getItems().clear();
             ongListView.getItems().addAll(ongs);
         });
 
+        // Event Handler for selecting an NGO from the list view
+        ongListView.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue != null) {
+                ongNameLabel.setText("Nome: " + newValue.getName());
+                ongDescriptionArea.setText(newValue.getDescription());
+                ongPhoneField.setText(newValue.getPhoneNumber());
+            }
+        });
+
         Scene scene = new Scene(grid, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }
