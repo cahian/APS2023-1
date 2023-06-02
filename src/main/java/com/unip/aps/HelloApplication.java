@@ -9,7 +9,21 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+
+import java.util.List;
+
 public class HelloApplication extends Application {
+    private ONGSearchService ongSearchService = new ONGSearchService();
+
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Poverty Eradication App");
@@ -37,17 +51,24 @@ public class HelloApplication extends Application {
         Button searchButton = new Button("Buscar ONGs");
         grid.add(searchButton, 0, 2);
 
+        // List View for displaying the NGOs
+        ListView<String> ongListView = new ListView<>();
+        grid.add(ongListView, 0, 3, 2, 1);
+
         // Event Handler for the search button
         searchButton.setOnAction(e -> {
             String name = nameField.getText();
             String address = addressField.getText();
 
-            // Perform the search for NGOs based on the provided information
-            // Call a method or class that searches for NGOs and returns a list of nearby NGOs
-            // Display the list of NGOs to the user
+            // Call the ONGSearchService to get the list of NGOs
+            List<String> ongs = ongSearchService.searchNGOs(name, address);
+
+            // Clear the list view and display the NGOs
+            ongListView.getItems().clear();
+            ongListView.getItems().addAll(ongs);
         });
 
-        Scene scene = new Scene(grid, 400, 200);
+        Scene scene = new Scene(grid, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
