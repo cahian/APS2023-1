@@ -2,13 +2,15 @@ package com.unip.aps.model;
 
 public class ONG {
     private String nome;
+    private String descricao;
     private String email;
     private String telefone;
     private String cnpj;
-    private Endereco endereco;
+    private String endereco;
 
-    public ONG(String nome, String email, String telefone, String cnpj, Endereco endereco) {
+    public ONG(String nome, String descricao, String email, String telefone, String cnpj, String endereco) {
         this.nome = nome;
+        this.descricao = descricao;
         this.email = email;
         this.telefone = telefone;
         this.cnpj = cnpj;
@@ -21,6 +23,14 @@ public class ONG {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public String getEmail() {
@@ -47,22 +57,16 @@ public class ONG {
         this.cnpj = cnpj;
     }
 
-    public Endereco getEndereco() {
+    public String getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(Endereco endereco) {
+    public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
 
     @Override
     public String toString() {
-        return "ONG{" +
-                "nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", cnpj='" + cnpj + '\'' +
-                ", endereco=" + endereco +
-                '}';
+        return nome;
     }
 }

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="572f86f9-3552-4df2-a2d0-926e16431619" name="Changes" comment="Update code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unip/aps/controller/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unip/aps/controller/ONGController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unip/aps/controller/ONGController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unip/aps/controller/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unip/aps/chore/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unip/aps/model/ONG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unip/aps/model/ONG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unip/aps/view/ONGView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unip/aps/view/ONGView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +37,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Cahian/IdeaProjects/aps"
+    "last_opened_file_path": "C:/Users/Cahian/IdeaProjects/aps",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cahian\IdeaProjects\aps\src\main\java\com\unip\aps\chore" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unip.aps.HelloApplication" />
@@ -115,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685993419693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update code">
+      <created>1685995195043</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685995195043</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

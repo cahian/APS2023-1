@@ -21,7 +21,9 @@ public class ONGView extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Poverty Eradication App");
+        primaryStage.setTitle("APS 2023-1");
+        primaryStage.setHeight(600);
+        primaryStage.setWidth(1000);
 
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(20));
@@ -58,6 +60,7 @@ public class ONGView extends Application {
 
         TextArea ongDescriptionArea = new TextArea();
         ongDescriptionArea.setEditable(false);
+        ongDescriptionArea.setWrapText(true);
         grid.add(ongDescriptionArea, 1, 4);
 
         TextField ongPhoneField = new TextField();
@@ -84,9 +87,9 @@ public class ONGView extends Application {
         // Event Handler for selecting an NGO from the list view
         ongListView.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null) {
-                ongNameLabel.setText("Nome: " + newValue.getName());
-                ongDescriptionArea.setText(newValue.getDescription());
-                ongPhoneField.setText(newValue.getPhoneNumber());
+                ongNameLabel.setText("Nome: " + newValue.getNome());
+                ongDescriptionArea.setText(newValue.getDescricao());
+                ongPhoneField.setText(newValue.getTelefone());
             }
         });
 
