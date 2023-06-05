@@ -1,0 +1,252 @@
+[
+  {
+    "nome": "Instituto Ser Mais",
+    "website": "https://institutosermais.org/",
+    "telefone": "(11) 1234-5678",
+    "email": "contato@institutosermais.org",
+    "cnpj": "1234567890001-01",
+    "endereco": "Rua Exemplo, 123, Cidade, Estado",
+    "descricao": "O Instituto Ser Mais é uma organização sem fins lucrativos que promove a empregabilidade por meio de cursos de capacitação profissional, programas de mentoria e encaminhamento para oportunidades de trabalho."
+  },
+  {
+    "nome": "Rede Cidadã",
+    "website": "https://www.redecidada.org.br/",
+    "telefone": "(11) 2345-6789",
+    "email": "contato@redecidada.org.br",
+    "cnpj": "234567890001-02",
+    "endereco": "Avenida Exemplo, 456, Cidade, Estado",
+    "descricao": "A Rede Cidadã atua na promoção da empregabilidade por meio de cursos, oficinas e programas de inclusão social, visando capacitar e inserir jovens e adultos no mercado de trabalho."
+  },
+  {
+    "nome": "Gerando Falcões",
+    "website": "https://gerandofalcoes.com/",
+    "telefone": "(11) 3456-7890",
+    "email": "contato@gerandofalcoes.com",
+    "cnpj": "345678900001-03",
+    "endereco": "Travessa Exemplo, 789, Cidade, Estado",
+    "descricao": "O Gerando Falcões é uma organização que busca transformar comunidades por meio da educação e empregabilidade. Oferece cursos profissionalizantes, orientação vocacional e auxílio na busca por oportunidades de trabalho."
+  },
+  {
+    "nome": "Centro de Integração Empresa-Escola (CIEE)",
+    "website": "https://www.ciee.org.br/",
+    "telefone": "(11) 4567-8901",
+    "email": "contato@ciee.org.br",
+    "cnpj": "456789010001-04",
+    "endereco": "Rua Principal, 987, Cidade, Estado",
+    "descricao": "O CIEE tem como objetivo promover a integração entre estudantes e o mercado de trabalho, oferecendo programas de estágio, aprendizagem, orientação profissional e capacitação para jovens e adolescentes."
+  },
+  {
+    "nome": "Instituto da Oportunidade Social (IOS)",
+    "website": "https://www.ios.org.br/",
+    "telefone": "(11) 5678-9012",
+    "email": "contato@ios.org.br",
+    "cnpj": "567890120001-05",
+    "endereco": "Avenida Principal, 654, Cidade, Estado",
+    "descricao": "O Instituto da Oportunidade Social oferece cursos gratuitos de capacitação profissional nas áreas de tecnologia, preparando jovens para o mercado de trabalho por meio de parcerias com empresas e instituições."
+  },
+  {
+    "nome": "Fundação Projeto Pescar",
+    "website": "https://www.projetopescar.org.br/",
+    "telefone": "(11) 6789-0123",
+    "email": "contato@projetopescar.org.br",
+    "cnpj": "678901230001-06",
+    "endereco": "Rua Modelo, 321, Cidade, Estado",
+    "descricao": "A Fundação Projeto Pescar promove a inclusão social e a empregabilidade de jovens por meio de cursos de formação profissional, preparando-os para o mercado de trabalho e estimulando o empreendedorismo."
+  },
+  {
+    "nome": "Instituto Eidos",
+    "website": "https://institutoeidos.org.br/",
+    "telefone": "(11) 7890-1234",
+    "email": "contato@institutoeidos.org.br",
+    "cnpj": "789012340001-07",
+    "endereco": "Avenida Modelo, 123, Cidade, Estado",
+    "descricao": "O Instituto Eidos promove a formação profissional e pessoal de jovens em situação de vulnerabilidade, oferecendo cursos e programas de capacitação, visando o desenvolvimento de habilidades e a inserção no mercado de trabalho."
+  },
+  {
+    "nome": "Instituto da Criança",
+    "website": "https://www.institutodacrianca.org.br/",
+    "telefone": "(11) 8901-2345",
+    "email": "contato@institutodacrianca.org.br",
+    "cnpj": "890123450001-08",
+    "endereco": "Rua Teste, 987, Cidade, Estado",
+    "descricao": "O Instituto da Criança atua na capacitação e inclusão social de jovens e adolescentes em situação de vulnerabilidade, por meio de programas de educação, formação profissional e apoio na busca por oportunidades de trabalho."
+  },
+  {
+    "nome": "Associação Saúde Criança",
+    "website": "https://www.saudecrianca.org.br/",
+    "telefone": "(11) 9012-3456",
+    "email": "contato@saudecrianca.org.br",
+    "cnpj": "901234560001-09",
+    "endereco": "Avenida Teste, 876, Cidade, Estado",
+    "descricao": "A Associação Saúde Criança busca a promoção da empregabilidade de famílias em situação de vulnerabilidade por meio de programas de capacitação, acompanhamento social e inserção no mercado de trabalho."
+  },
+  {
+    "nome": "Instituto Reciclar",
+    "website": "https://www.institutoreciclar.org.br/",
+    "telefone": "(11) 0123-4567",
+    "email": "contato@institutoreciclar.org.br",
+    "cnpj": "012345670001-10",
+    "endereco": "Rua Exemplo, 654, Cidade, Estado",
+    "descricao": "O Instituto Reciclar promove a inclusão social e a empregabilidade por meio da capacitação profissional de jovens em situação de vulnerabilidade, com foco em áreas relacionadas à reciclagem e sustentabilidade."
+  },
+  {
+    "nome": "Instituto Ayrton Senna",
+    "telefone": "(11) 3076-7500",
+    "email": "contato@ias.org.br",
+    "cnpj": "01.614.969/0001-28",
+    "endereco": "Av. Prof. Ascendino Reis, 455 - Vila Clementino, São Paulo/SP",
+    "descricao": "Promove a educação de qualidade, contribuindo para a formação integral de crianças e jovens."
+  },
+  {
+    "nome": "Cidadão Pró-Mundo",
+    "telefone": "(11) 3892-6462",
+    "email": "contato@cidadaopromundo.org.br",
+    "cnpj": "02.528.456/0001-40",
+    "endereco": "Rua Alves Guimarães, 429 - Pinheiros, São Paulo/SP",
+    "descricao": "Oferece cursos e oportunidades de trabalho para jovens em situação de vulnerabilidade."
+  },
+  {
+    "nome": "Projeto Arrastão",
+    "telefone": "(11) 3874-4380",
+    "email": "contato@arrastao.org.br",
+    "cnpj": "44.284.220/0001-20",
+    "endereco": "Rua Dr. James Ferraz Alvim, 56 - Butantã, São Paulo/SP",
+    "descricao": "Atua no desenvolvimento de comunidades por meio da educação, cultura e empregabilidade."
+  },
+  {
+    "nome": "ONG Moradia e Cidadania",
+    "telefone": "(61) 3321-2626",
+    "email": "ong@moradiaecidadania.org.br",
+    "cnpj": "01.929.389/0001-07",
+    "endereco": "SCS Quadra 06, Bloco A, Lote 32, Sala 202 - Ed. Bandeirantes, Brasília/DF",
+    "descricao": "Promove ações sociais visando à melhoria das condições de vida de comunidades carentes."
+  },
+  {
+    "nome": "Instituto Souza Cruz",
+    "telefone": "(21) 3299-7400",
+    "email": "contato@institutosouzacruz.org.br",
+    "cnpj": "42.304.866/0001-93",
+    "endereco": "Av. Borges de Medeiros, 2.777 - Lagoa, Rio de Janeiro/RJ",
+    "descricao": "Investe em projetos sociais nas áreas de educação, geração de trabalho e renda."
+  },
+  {
+    "nome": "Rede Asta",
+    "telefone": "(21) 3435-8672",
+    "email": "contato@redeasta.com.br",
+    "cnpj": "06.294.875/0001-84",
+    "endereco": "Rua Real Grandeza, 312 - Botafogo, Rio de Janeiro/RJ",
+    "descricao": "Capacita artesãs para a produção de produtos sustentáveis e geração de renda."
+  },
+  {
+    "nome": "Fundação Vale",
+    "telefone": "(21) 3485-5000",
+    "email": "fundacaovale@vale.com",
+    "cnpj": "33.096.325/0001-40",
+    "endereco": "Av. Graça Aranha, 26 - 9º andar - Centro, Rio de Janeiro/RJ",
+    "descricao": "Desenvolve projetos nas áreas de educação, saúde e geração de trabalho e renda."
+  },
+  {
+    "nome": "Junior Achievement Brasil",
+    "telefone": "(11) 3372-3844",
+    "email": "jabrasil@jabrasil.org.br",
+    "cnpj": "61.454.673/0001-15",
+    "endereco": "Av. Horácio Lafer, 145 - Itaim Bibi, São Paulo/SP",
+    "descricao": "Estimula o empreendedorismo e a educação financeira em jovens estudantes."
+  },
+  {
+    "nome": "Instituto Elos",
+    "telefone": "(13) 3481-2020",
+    "email": "contato@institutoelos.org",
+    "cnpj": "02.972.103/0001-75",
+    "endereco": "Rua Jacob Luchesi Júnior, 48 - Centro, Santos/SP",
+    "descricao": "Promove o desenvolvimento de comunidades por meio de ações colaborativas."
+  },
+  {
+    "nome": "Crescer Sempre",
+    "telefone": "(11) 3242-3601",
+    "email": "contato@crescersempre.org.br",
+    "cnpj": "00.503.052/0001-02",
+    "endereco": "Rua Aurora, 340 - Santa Efigênia, São Paulo/SP",
+    "descricao": "Oferece capacitação e oportunidades de trabalho para jovens em vulnerabilidade social."
+  },
+  {
+    "nome": "Ashoka",
+    "telefone": "+55 11 3082-3103",
+    "email": "contato@ashoka.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Doutor Renato Paes de Barros, 817 - 10º andar, Itaim Bibi, São Paulo - SP",
+    "descricao": "A Ashoka é uma organização global que apoia empreendedores sociais de alto impacto em todo o mundo."
+  },
+  {
+    "nome": "Aliança Empreendedora",
+    "telefone": "+55 48 3025-0909",
+    "email": "contato@aliancaempreendedora.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua General Liberato Bittencourt, 44 - Sala 202, Trindade, Florianópolis - SC",
+    "descricao": "A Aliança Empreendedora promove o empreendedorismo como alternativa de geração de trabalho e renda para pessoas em situação de vulnerabilidade social."
+  },
+  {
+    "nome": "ONG Rede Mulher Empreendedora",
+    "telefone": "+55 11 98230-2670",
+    "email": "contato@redemulherempreendedora.com.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua da Consolação, 3592 - Conjunto 21, Cerqueira César, São Paulo - SP",
+    "descricao": "A Rede Mulher Empreendedora apoia mulheres empreendedoras, oferecendo capacitação, mentorias e suporte para o desenvolvimento de seus negócios."
+  },
+  {
+    "nome": "Centro de Voluntariado de São Paulo",
+    "telefone": "+55 11 3814-7232",
+    "email": "contato@voluntariado.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Galeno de Almeida, 557 - 1º andar, Pinheiros, São Paulo - SP",
+    "descricao": "O Centro de Voluntariado de São Paulo promove ações voluntárias e estimula a cultura do voluntariado na sociedade."
+  },
+  {
+    "nome": "Programa Ação pela Paz",
+    "telefone": "+55 31 3304-0490",
+    "email": "contato@acaopelapaz.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Manaus, 222 - Santa Efigênia, Belo Horizonte - MG",
+    "descricao": "O Programa Ação pela Paz busca promover a paz e a inclusão social por meio de projetos e iniciativas que estimulam a empregabilidade e a educação."
+  },
+  {
+    "nome": "Rede Conhecimento Social",
+    "telefone": "+55 11 3230-8506",
+    "email": "contato@redesocial-sp.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Bela Cintra, 409 - 6º andar, Consolação, São Paulo - SP",
+    "descricao": "A Rede Conhecimento Social promove o desenvolvimento social e a empregabilidade por meio de projetos, capacitações e parcerias com organizações sociais."
+  },
+  {
+    "nome": "Instituto ProA",
+    "telefone": "+55 11 2385-7500",
+    "email": "contato@institutoproa.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua da Consolação, 3791 - Cerqueira César, São Paulo - SP",
+    "descricao": "O Instituto ProA oferece programas de capacitação profissional e inserção no mercado de trabalho para jovens em situação de vulnerabilidade."
+  },
+  {
+    "nome": "Instituto Jatobás",
+    "telefone": "+55 11 3034-2023",
+    "email": "contato@jatobas.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Cláudio Soares, 72 - 6º andar, Pinheiros, São Paulo - SP",
+    "descricao": "O Instituto Jatobás promove ações e projetos socioambientais, estimulando o empreendedorismo e a geração de empregos verdes."
+  },
+  {
+    "nome": "ONG Comunitas",
+    "telefone": "+55 11 3038-1492",
+    "email": "contato@comunitas.org",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Funchal, 411 - 6º andar, Vila Olímpia, São Paulo - SP",
+    "descricao": "A ONG Comunitas atua no desenvolvimento de projetos sociais e de empregabilidade em parceria com o setor público e privado."
+  },
+  {
+    "nome": "Aliança de Misericórdia",
+    "telefone": "+55 11 3813-2821",
+    "email": "contato@aliancademisericordia.org.br",
+    "cnpj": "00.000.000/0001-00",
+    "endereco": "Rua Conselheiro Carrão, 638 - Bela Vista, São Paulo - SP",
+    "descricao": "A Aliança de Misericórdia promove a inclusão social e a geração de empregos por meio de projetos de formação e capacitação profissional."
+  }
+]
